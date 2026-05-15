@@ -15,7 +15,7 @@
 
         //PI = PI +1;
 
-        define("NOMBRE", "Luisja");
+        define("NOMBRE", "David");
         echo NOMBRE;
 
     ?>
