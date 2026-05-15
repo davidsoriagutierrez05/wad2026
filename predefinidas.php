@@ -19,7 +19,7 @@
         echo "Puerto del servidor " . $_SERVER['SERVER_PORT'];
         echo "<br>";
 
-        echo "La variable número es ". $GLOBALES['numero'];
+        echo "La variable número es ". $GLOBALS['numero'];
 
     ?>
 </body>
