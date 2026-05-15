@@ -1,25 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Practicas PHP</title>
+<title>Prácticas PHP</title>
 </head>
 
 <body>
-<?php
+    <?php
+        $num1 = 5;
+        $num2 = 10;
 
-	$num1 = 5;
-	$num2 = 10;
-    echo $num1;
-    echo "<br>";
-    echo $num1++;
-    echo "<br>";
-    echo $num1;
-    echo "<br>";echo "<br>";
-    echo $num2;
-    echo "<br>";
-    echo $num2;
-
+        echo $num1;
+        echo "<br>";
+        echo $num1++;
+        echo "<br>";
+        echo $num1;
+        echo "<br>";
+        echo "<br>";
+        echo $num2;
+        echo "<br>";
+        echo ++$num2;
+        echo "<br>";
+        echo $num2;
     ?>
 </body>
 </html>
